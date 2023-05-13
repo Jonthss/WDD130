@@ -1,0 +1,76 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#hero-img {
+  width: 100%;
+  height: auto;
+  max-width: 1600px;
+  display: block;
+  margin: 0 auto;
+}
+.logo {
+  width: 150px;
+}
+nav a {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+nav a {
+    text-align: center;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+  text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #F4F4F4;
+}
+  
+header {
+  background-color: #586053;
+}
+  
+nav a:hover {
+  background-color: #4D4D4D;
+}
+  
+.book, .join {
+  background-color: #D9C2A4;
+  color: black;
+}
+  
+.book:hover, .join:hover {
+  background-color: #FFFFFF;
+  color: #4D4D4D;
+}
+  
+#background {
+  background-color: #D9C2A4;
+}
+
+.msg {
+   background-color: #707465;
+   color: white;
+}
+  
+footer {
+  background-color: #707465;
+  color: #DAC2A4;
+}
+
+footer a[href="site-plan-rafting.html"],
+footer a[href="contactus.html"] {
+    color: #D9C2A4;
+}
