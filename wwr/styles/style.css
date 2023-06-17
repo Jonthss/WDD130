@@ -300,18 +300,6 @@ footer {
 
 /* second_page */
 
-div {
-  overflow: auto;
-  margin-bottom: 20px;
-}
-
-div.image-container {
-  display: flex;
-  align-items:flex-start;
-  margin-bottom: 100px;
-  
-}
-
 div.image-container.Salmon {
   justify-content: flex-start;
   margin-right: 10px;
