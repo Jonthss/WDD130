@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .image {
+        width: 500px; /* Defina a largura desejada para os retângulos */
+        height: 450px; /* Defina a altura desejada para os retângulos */
+        object-fit: cover;
+        object-position: center;
+        border: 1px solid #ccc;
+        margin-right: 10px; /* Ajuste o espaçamento entre as imagens */
+    }
+    
+    .box {
+      position: absolute;
+      top: 100%;
+      left: 100%;
+      transform: translate(-50%, -50%);
+      background-color: blue;
+      padding: 30px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="wwr\soul-joao\images\baner-home.jpg" alt="Imagem" class="image">
+    <div class="box">
+      <h1>Texto Centralizado</h1>
+      <p>Este é um exemplo de texto centralizado dentro de uma caixa azul sobreposta a uma imagem.</p>
+    </div>
+  </div>
+</body>
+</html>
