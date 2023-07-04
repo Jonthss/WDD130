@@ -357,8 +357,8 @@ footer p a:hover {
 }
 
 .image_p3 {
-  width: 1000px; 
-  height: 600px; 
+  width: 850px; 
+  height: 550px; 
   object-fit: cover;
   object-position: center;
   border: 0px solid #ccc;
@@ -379,7 +379,7 @@ footer p a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 700px;
+  width: 650px;
   height: 220px
 }
 
@@ -395,7 +395,6 @@ footer p a:hover {
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  
 }
 
 .image_p3_2 {
@@ -405,13 +404,13 @@ footer p a:hover {
   object-position: center;
   border: 0px solid #ccc;
   margin-right: 400px; 
-  margin-left: 850px;
+  margin-left: 750px;
 }
 
 .box_p3_2 {
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 35%;
   transform: translate(-50%, -50%);
   background-color: #FF1572;
   padding: 29px;
