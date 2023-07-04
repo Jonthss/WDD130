@@ -117,7 +117,10 @@ header .nav-links a:hover {
 }
 
 
-
+.info {
+  color: #101830;
+  font-weight: bold;
+}
 
 
 .container {
@@ -289,7 +292,8 @@ footer p a:hover {
     justify-content: center;
     width: 670px;  
     z-index: 4; 
-    font-size: 20px;
+    font-size: 15px;
+    letter-spacing: 3px;
 }
 
 
@@ -297,12 +301,12 @@ footer p a:hover {
     position: relative;
     display: inline-block;
     z-index: 3;
-    margin-top: 500px;
+    margin-top: 590px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    
+    letter-spacing: 3px;
 }
 
 .image_p2 {
@@ -352,8 +356,8 @@ footer p a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
-  
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 
 .image_p3 {
@@ -372,7 +376,7 @@ footer p a:hover {
   left: 73%;
   transform: translate(-50%, -50%);
   background-color: #FF1572;
-  padding: 29px;
+  padding: 30px;
   color: white;
   text-align: justify;
   align-items: center;
@@ -380,7 +384,7 @@ footer p a:hover {
   flex-direction: column;
   justify-content: center;
   width: 650px;
-  height: 220px
+  height: 250px;
 }
 
 
@@ -390,11 +394,12 @@ footer p a:hover {
   position: relative;
   display: inline-block;
   z-index: 3;
-  margin-top: 150px;
+  margin-top: 190px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
+  letter-spacing: 3px;
 }
 
 .image_p3_2 {
@@ -409,8 +414,8 @@ footer p a:hover {
 
 .box_p3_2 {
   position: absolute;
-  top: 30%;
-  left: 35%;
+  top: 35%;
+  left: 30%;
   transform: translate(-50%, -50%);
   background-color: #FF1572;
   padding: 29px;
@@ -421,4 +426,6 @@ footer p a:hover {
   flex-direction: column;
   justify-content: center;
   width: 700px;
+  height: 500px;
 }
+
