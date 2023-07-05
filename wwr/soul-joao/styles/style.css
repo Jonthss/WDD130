@@ -40,8 +40,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  max-width: 1600px; /* Added max-width */
-  margin: 0 auto; /* Centering the navbar */
   z-index: 5;
 }
 
