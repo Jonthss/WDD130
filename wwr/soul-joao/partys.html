@@ -37,7 +37,7 @@
 </div>
 
 <div id="photoContent_p2" class="container_p2">
-    <img id="Home_img_p1" src="images/festa.jpg" alt="People dancing" class="image_p2">
+    <img id="Home_img_p1" src="images/festa.jpg" alt="People in a party" class="image_p2">
     <div class="box_p2">
         <p>The shows at the <span class="info">Parque do Povo</span> in Campina Grande are known as one of the city's greatest highlights. During the month of June, when the traditional June festival takes place, the park is transformed into a real stage for great musical performances, attracting thousands of people from all over the country.</p>
         <p>The Parque do Povo is a large, wooded area, designed to house a complete structure for the Campina Grande June Festival. With a capacity to receive hundreds of thousands of people, the park is the stage for shows by renowned artists of Brazilian music, especially forró and sertanejo.</p>
@@ -58,6 +58,37 @@
         </a>
     </div>
 </footer>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01" alt="" src="images/modal-image.jpg">
+  <div id="caption"></div>
+</div>
+
+<script>
+function openModal() {
+    var modal = document.getElementById("myModal");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+}
+
+var images3 = document.getElementsByClassName("image_p2");
+for (var i = 0; i < images3.length; i++) {
+    images3[i].addEventListener("click", openModal);
+}
+
+var closeBtn = document.getElementsByClassName("close")[0];
+closeBtn.addEventListener("click", closeModal);
+</script>
+
 
 </body>
 </html>

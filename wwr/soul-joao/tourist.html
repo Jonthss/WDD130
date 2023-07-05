@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,61 +8,108 @@
     <title>Soul João | Home</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-<div id="content">
-    <header>
-        <div class="navbar">
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="partys.html">Partys</a>
-            <a href="tourist.html">Tourist Spots</a>
-        </div>
-        <div class="logo">
-            <img src="images/logo.png" alt="Soul João" style="width: 125px; height: auto;">
-        </div>
-        </div>
-    </header>
+    <div id="content">
+        <header>
+            <div class="navbar">
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="partys.html">Partys</a>
+                    <a href="tourist.html">Tourist Spots</a>
+                </div>
+                <div class="logo">
+                    <img src="images/logo.png" alt="Soul João" style="width: 125px; height: auto;">
+                </div>
+            </div>
+        </header>
 
-    <div id="Title" class="titel">
-        <h1 class="home-title">Campina Grande's Tourist Spots</h1>
+        <div id="Title" class="titel">
+            <h1 class="home-title">Campina Grande's Tourist Spots</h1>
+        </div>
+
+        <div id="photoTropeiro" class="container_p3">
+            <img id="Home_img_1" src="images/tropeiros.webp" alt="Tropeiros da Borborema in Campina Grande" class="image_p3">
+            <div class="box_p3">
+                <p>
+                    The <span class="info">Tropeiros da Borborema</span> is a tourist attraction located in Campina Grande, in Paraíba, Brazil. The site is a tribute to the old troopers, merchants who, in past centuries, traveled through the region transporting goods on donkeys and horses.
+                </p>
+                <p>
+                    The Tropeiros da Borborema monument is a sculpture depicting a muleteer mounted on his pack animal, carrying bales of cotton. The statue, made of bronze, represents the historical and cultural importance of these characters in the region.
+                </p>
+            </div>
+        </div>
+
+
+        <div id="photoAcude" class="container_p3_2">
+            <img id="Home_img_2" src="images/acude.jpg" alt="Açude Velho in Campina Grande" class="image_p3_2">
+            <div class="box_p3_2">
+                <p>
+                    The <span class="info">Açude Velho</span> is one of the most famous tourist attractions in Campina Grande, located in the state of Paraíba, Brazil. It is an artificial lake that has become an important historical and cultural landmark of the city.
+                </p>
+                <p>
+                    Built in 1865, the Açude Velho was initially designed to supply the city of Campina Grande with drinking water. Over time, it became a place of coexistence and leisure for the local residents, and today it is one of the main tourist attractions in the region.
+                </p>
+                <p>
+                    The lake has an extensive green area around it, with beautiful gardens, benches, and spaces for walks and physical exercise. It is a place frequented by families, couples, and friends who wish to enjoy a peaceful and pleasant environment.
+                </p>
+                <p>
+                    Besides its natural beauty, the Açude Velho also hosts several cultural events throughout the year, such as musical concerts, handicraft fairs, and gastronomic festivals. During the traditional Campina Grande June Festival, the lake becomes the stage for quadrilha presentations, attracting tourists from all over the country.
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <div class="social">
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
     </div>
 
-    <div id="photoTropeiro" class="container_p3">
-        <img id="Home_img_1" src="images/tropeiros.webp" alt="Tropeiros da Borborema in Campina Grande" class="image_p3">
-        <div class="box_p3">
-            <p>
-                The <span class="info">Tropeiros da Borborema</span> is a tourist attraction located in Campina Grande, in Paraíba, Brazil. The site is a tribute to the old troopers, merchants who, in past centuries, traveled through the region transporting goods on donkeys and horses.
-            <p>    
-                The Tropeiros da Borborema monument is a sculpture depicting a muleteer mounted on his pack animal, carrying bales of cotton. The statue, made of bronze, represents the historical and cultural importance of these characters in the region.
-            </p>
-        </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01" alt="" src="images/modal-image.jpg">
+        <div id="caption"></div>
     </div>
 
+    <script>
+        // Abre o modal com a imagem clicada
+        function openModal() {
+            var modal = document.getElementById("myModal");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+        
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
 
-    <div id="photoAcude" class="container_p3_2">
-        <img id="Home_img_2" src="images/acude.jpg" alt="Açude Velho in Campina Grande" class="image_p3_2">
-        <div class="box_p3_2">
-            <p>
-                The <span class="info">Açude Velho</span> is one of the most famous tourist attractions in Campina Grande, located in the state of Paraíba, Brazil. It is an artificial lake that has become an important historical and cultural landmark of the city.
-                Built in 1865, the Açude Velho was initially designed to supply the city of Campina Grande with drinking water. Over time, it became a place of coexistence and leisure for the local residents, and today it is one of the main tourist attractions in the region.
-            <p>
-                The lake has an extensive green area around it, with beautiful gardens, benches, and spaces for walks and physical exercise. It is a place frequented by families, couples, and friends who wish to enjoy a peaceful and pleasant environment.
-                Besides its natural beauty, the Açude Velho also hosts several cultural events throughout the year, such as musical concerts, handicraft fairs, and gastronomic festivals. During the traditional Campina Grande June Festival, the lake becomes the stage for quadrilha presentations, attracting tourists from all over the country.
-            </p>
-        </div>
-    </div>
+        // Fecha o modal quando o usuário clica no botão de fechar
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
 
-    <footer>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <div class="social">
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-        </div>
-    </footer>
-</div>
+        // Encontra todas as imagens com a classe "image_p3" e "image_p3_2" e adiciona o evento de clique para abrir o modal
+        var images_p3 = document.getElementsByClassName("image_p3");
+        for (var i = 0; i < images_p3.length; i++) {
+            images_p3[i].addEventListener("click", openModal);
+        }
+
+        var images_p3_2 = document.getElementsByClassName("image_p3_2");
+        for (var i = 0; i < images_p3_2.length; i++) {
+            images_p3_2[i].addEventListener("click", openModal);
+        }
+
+        // Encontra o elemento de fechar e adiciona o evento de clique para fechar o modal
+        var closeBtn = document.getElementsByClassName("close")[0];
+        closeBtn.addEventListener("click", closeModal);
+    </script>
 </body>
+
 </html>
